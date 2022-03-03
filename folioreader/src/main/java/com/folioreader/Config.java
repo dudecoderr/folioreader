@@ -11,7 +11,7 @@ import androidx.annotation.ColorRes;
 import androidx.core.content.ContextCompat;
 
 import org.json.JSONObject;
-
+// kaushik
 /**
  * Configuration class for FolioReader.
  */
