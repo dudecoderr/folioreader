@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 package com.folioreader.ui.activity
-
+import android.view.WindowManager.LayoutParams
 import android.Manifest
 import android.app.Activity
 import android.app.ActivityManager
@@ -250,7 +250,7 @@ class FolioActivity : AppCompatActivity(), FolioActivityCallback, MediaControlle
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        window.addFlags(LayoutParams.FLAG_SECURE)
         // Need to add when vector drawables support library is used.
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true)
 
