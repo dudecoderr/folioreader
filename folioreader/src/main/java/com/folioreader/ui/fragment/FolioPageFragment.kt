@@ -297,6 +297,7 @@ class FolioPageFragment : Fragment(),
             if (loadingView != null && loadingView!!.visibility != View.VISIBLE) {
                 loadingView!!.show()
                 mWebview!!.loadUrl(String.format(getString(R.string.go_to_anchor), mAnchorId))
+                Log.e("TAG", "scrollToAnchorId: " +  String.format(getString(R.string.go_to_anchor), mAnchorId))
                 mAnchorId = null
             }
         }

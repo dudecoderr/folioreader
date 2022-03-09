@@ -397,6 +397,7 @@ class FolioActivity : AppCompatActivity(), FolioActivityCallback, MediaControlle
 
     private fun initMediaController() {
         Log.v(LOG_TAG, "-> initMediaController")
+        Log.v(LOG_TAG, "-> initMediaController")
 
         mediaControllerFragment = MediaControllerFragment.getInstance(supportFragmentManager, this)
     }

@@ -175,6 +175,7 @@ public class UiUtil {
         }
     }
 
+
     public static void setEditTextCursorColor(EditText editText, @ColorInt int color) {
         try {
             // Get the cursor resource id
