@@ -11,10 +11,10 @@
         android:id="@+id/view_config_ib_day_mode"
         android:layout_width="0dp"
         android:layout_height="50dp"
+        android:visibility="visible"
         android:background="@android:color/transparent"
         app:layout_constraintEnd_toStartOf="@+id/view_config_ib_night_mode"
         app:layout_constraintStart_toStartOf="parent"
-        android:visibility="gone"
         app:srcCompat="@drawable/icon_sun_sel"
         tools:ignore="MissingConstraints" />
 
@@ -22,7 +22,7 @@
         android:id="@+id/view_config_ib_night_mode"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:visibility="gone"
+        android:visibility="visible"
         android:background="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/view_config_ib_day_mode"
