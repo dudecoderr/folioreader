@@ -250,9 +250,9 @@ class FolioActivity : AppCompatActivity(), FolioActivityCallback, MediaControlle
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        window.addFlags(LayoutParams.FLAG_SECURE)
+//        window.addFlags(LayoutParams.FLAG_SECURE)
         // Need to add when vector drawables support library is used.
-        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true)
+//        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true)
 
         handler = Handler()
         val display = windowManager.defaultDisplay
