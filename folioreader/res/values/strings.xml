@@ -21,8 +21,8 @@
 
     <string name="copy">Copy</string>
     <string name="share">Share</string>
-    <string name="define">Define</string>
-    <string name="highlight">Highlight</string>
+    <string name="define">Resaltar</string>
+    <string name="highlight">Resaltado</string>
 
     <string name="pages_left">%1$d pages left</string>
     <string name="page_left">%1$d page left</string>
@@ -80,11 +80,11 @@
     <string name="underline_highlights">
         <span style="border-bottom: 1px solid #ff0000;">%s</span>
     </string>
-    <string name="edit_notes">Save your note</string>
-    <string name="save_note">Save note</string>
-    <string name="please_enter_note">please enter a note</string>
-    <string name="book_mark_success">Bookmarked!</string>
-    <string name="save_bookmark">Save</string>
+    <string name="edit_notes">Guarda tus notas</string>
+    <string name="save_note">Guardar nota</string>
+    <string name="please_enter_note">Ingresa una nota</string>
+    <string name="book_mark_success">Marcada!</string>
+    <string name="save_bookmark">Guardar</string>
     <string name="contents">Contenido</string>
 
     <!-- TODO: Remove or change this placeholder text -->
