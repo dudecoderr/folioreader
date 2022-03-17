@@ -457,7 +457,7 @@ class FolioActivity : AppCompatActivity(), FolioActivityCallback, MediaControlle
                 dialog.setCanceledOnTouchOutside(true)
                 dialog.setOnCancelListener{
                     Toast.makeText(this,
-                            "please enter a Bookmark name and then press Save",
+                            "Ingrese el nombre del marcador y luego presione guardar ",
                             Toast.LENGTH_SHORT).show()
                 }
                 dialog.findViewById<View>(R.id.btn_save_bookmark).setOnClickListener {
@@ -470,7 +470,7 @@ class FolioActivity : AppCompatActivity(), FolioActivityCallback, MediaControlle
                                 Toast.LENGTH_SHORT).show()
                     } else {
                         Toast.makeText(this,
-                                "please Enter a Bookmark name and then press Save",
+                                "Ingrese el nombre del marcador y luego presione guardar ",
                                 Toast.LENGTH_SHORT).show()
                     }
                     dialog.dismiss()
